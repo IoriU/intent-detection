@@ -21,31 +21,11 @@ The SNIPS dataset covers various domains, such as weather, music, and restaurant
 You can obtain the datasets from the following sources:
 - [ATIS Dataset](https://github.com/yuanxiaosc/BERT-for-Sequence-Labeling-and-Text-Classification/tree/master/data/atis_Intent_Detection_and_Slot_Filling) 
 - [SNIPS Dataset](https://github.com/yuanxiaosc/BERT-for-Sequence-Labeling-and-Text-Classification/tree/master/data/snips_Intent_Detection_and_Slot_Filling)
-- 
+
 ## Model Architecture
 
 Our model is based on JointBERT, which utilizes a pre-trained BERT model for contextualized word embeddings.
 Additionally, we incorporate a slot refinement mechanism that leverages the predicted intent to improve slot prediction accuracy.
-
-## Training
-
-To train the JointBERT model with slot refinement, follow these steps:
-
-1. Preprocess the datasets by converting them into suitable formats for training.
-2. Fine-tune the pre-trained BERT model on the concatenated dataset of ATIS and SNIPS data.
-3. Train the intent detection head with a cross-entropy loss.
-4. Train the slot filling head with a CRF-based loss.
-5. Implement and fine-tune the slot refinement mechanism.
-
-Detailed instructions and training scripts can be found in the project's documentation.
-
-## Evaluation
-
-We provide evaluation scripts to assess the model's performance on intent detection and slot filling tasks. You can run these scripts on the test datasets to obtain metrics such as accuracy for intent detection and F1-score for slot filling.
-
-## Usage
-
-To use the trained model for intent detection and slot filling, you can utilize the provided inference scripts. Simply input a user query, and the model will return the predicted intent and slot values.
 
 ## References
 
