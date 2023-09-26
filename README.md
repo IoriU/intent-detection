@@ -32,6 +32,4 @@ Additionally, we incorporate a slot refinement mechanism that leverages the pred
 - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://aclanthology.org/N19-1423/)
 - [SlotRefine: A Fast Non-Autoregressive Model for Joint Intent Detection and Slot Filling](https://aclanthology.org/2020.emnlp-main.152/)
 
-Please refer to the project's documentation and code for more details on implementation and usage.
-
 **Disclaimer:** This project is for research and educational purposes. The datasets used here may have their own licenses and terms of use. Please ensure compliance with those terms when using the datasets for any purpose.
